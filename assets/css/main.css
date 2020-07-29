@@ -1,0 +1,40 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.textcut{
+    white-space: nowrap;
+    width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.textcut-2{
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.textcut-1{
+    white-space: nowrap;
+    width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bg-green-950{
+    background-color: #22D545;
+}
+.cliped{
+    clip-path: polygon(99% 0, 0% 52%, 100% 100%);
+    
+}
+.cliped-revers{
+    clip-path: polygon(99% 46%, 0 0, 0% 100%);
+    
+}
+.ml-70{
+    margin-left:24rem;
+  }
+

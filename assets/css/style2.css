@@ -1,0 +1,22 @@
+.file-upload{
+	height:3rem;
+	width:3rem;
+	overflow:hidden;
+	position:relative;
+}
+.file-upload input{
+	position:absolute;
+	height:400px;
+	width:400px;
+	left:-200px;
+	top:-200px;
+	background:transparent;
+	opacity:0;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);  
+}
+.file-upload img{
+	height:1.5rem;
+	width:1.5rem;
+	margin:15px;
+}
